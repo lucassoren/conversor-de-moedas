@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/* Adicione o seguinte código CSS para usar a fonte "Poppins" */
+body, h1, h2, h3, h4, p, a, label, input, select, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Estilos gerais da página */
+body {
+    background: linear-gradient(180deg, #4e2a84, #1a1b2e) fixed center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000000;
+}
+
+/* Estilos para cabeçalho */
+header, main, section, article {
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #fff;
+    text-shadow: 3px 3px 0px #000;
+}
+
+/* Estilos para áreas principais */
+main, section, article {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para rodapé */
+footer {
+    width: 100vw;
+    background-color: #291f6c;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border-top: 2px solid #fff;
+}
+
+/* Estilos para parágrafos */
+p {
+    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para links */
+a {
+    color: #4e2a84;
+    background-color: rgba(78, 42, 132, 0.1);
+    padding: 0 3px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #4e2a84;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #4e2a84;
+}
+
+/* Estilos para tabelas */
+table {
+    min-width: 400px;
+    border-collapse: collapse;
+    margin: 10px auto;
+    border: 1px solid #4e2a84;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+table th {
+    background-color: #4e2a84;
+    color: #fff;
+    padding: 5px;
+    text-align: left;
+}
+
+table td {
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Estilos para formulários */
+form {
+    background-color: rgba(78, 42, 132, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #4e2a84;
+}
+
+form label {
+    display: block;
+    width: fit-content;
+    font-size: 0.8em;
+    font-weight: 100;
+    background-color: rgba(78, 42, 132, 0.2);
+    padding: 3px 7px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+/* Estilos para inputs e botões */
+input[type="text"],
+input[type="number"],
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="password"],
+input[type="range"],
+input[type="tel"],
+input[type="time"],
+input[type="week"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    border: 1px solid #4e2a84;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #4e2a84;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: #fff;
+    color: #4e2a84;
+    border-color: #4e2a84;
+}
+
+fieldset > legend {
+    font-size: 0.8em;
+    font-weight: 100;
+    background-color: rgba(78, 42, 132, 0.2);
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+/* Estilos para input[type="radio"] e input[type="checkbox"] */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: inline-block;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Estilos para listas não ordenadas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para marcadores de lista */
+ul > li::marker {
+    color: #4e2a84;
+}
+
+/* Estilos para marcadores de lista com borda */
+ul.bordered-list > li::marker {
+    content: "";
+    border: 2px solid #4e2a84;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+/* Estilos para imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Outros estilos personalizados podem ser adicionados conforme necessário */
